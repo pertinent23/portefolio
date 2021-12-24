@@ -61,7 +61,6 @@ class Navigation extends Component{
                 </div>
                 <div className="navigation my-3 d-flex flex-column flex-md-row ml-md-5">
                     <NavigationItem link="/" icon="house-fill" title="Home" />
-                    { /** <NavigationItem link="/about" icon="question-octagon-fill" title="About" /> */ }
                     <NavigationItem link="/contact-me" icon="chat-square-quote-fill" title="Contact Me" />
                     <div className="bar my-3 d-md-none"></div>
                     <div className="navigation-social-network d-flex align-align-items-center justify-content-md-end pr-md-4 py-3">
