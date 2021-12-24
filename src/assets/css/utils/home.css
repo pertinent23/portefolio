@@ -1,0 +1,145 @@
+.content-page-inner{
+    background-image: url( "./../../images/geometry-g550958fa2_1920.jpg" );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.part{
+    min-height: 550px;
+    background-color: #FFFFFF;
+}
+
+.first-part{
+    background-color: rgba( 255, 255, 255, 0.8 );
+    -webkit-backdrop-filter: blur( 3px );
+    backdrop-filter: blur( 3px );
+}
+
+.first-part-bottom{
+    height: 150px;
+}
+
+.first-part-bottom .first-part-bottom-item{
+    background-color: #FFFFFF;
+}
+
+.first-part-bottom .first-part-bottom-item.item1{
+    transform: rotate( 10deg );
+    left: -20%;
+    bottom: -45%;
+    z-index: 25;
+}
+
+.first-part-bottom .first-part-bottom-item.item2{
+    transform: rotate( -10deg );
+    right: -20%;
+    bottom: -45%;
+    z-index: 25;
+}
+
+.second-part-content-img,
+.first-part-brand-item{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 6px solid #000000;
+}
+
+.second-part-content-img{
+    border-radius: 0px;
+    border: 0px !important
+}
+
+.first-part-brand-item .first-part-brand-item-content-picture{
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.first-part-brand-item img{
+    width: 100%;
+    max-height: 140%;
+    border-radius: 100%;
+}
+
+.first-part-brand-item .first-part-brand-item-text{
+    white-space: nowrap;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 0.95em;
+    border-radius: 5px;
+    bottom: 10px;
+    transform: rotate( -5deg );
+}
+
+.second-part .bar{
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.second-part-content-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.second-part-text{
+    max-width: 450px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    font-size: 0.95em;
+}
+
+.second-part-text span{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 0px 5px;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-item-content{
+    border: 1px solid #EEEEEE;
+}
+
+.contact-item-content i{
+    font-size: 25px;
+}
+
+.contact-item-content .contact-item-text{
+    font-size: 0.85em;
+    letter-spacing: 0.13em;
+}
+
+.second-part-cv a{
+    text-decoration: none !important;
+}
+
+.second-part-cv-text{
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.4em;
+    font-family: plento;
+    letter-spacing: 0.15em;
+}
+
+.second-part-cv-button{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: auto !important;
+}
+
+.second-part-cv-button i{
+    font-size: 25px;
+}
+
+.second-part-cv-button span{
+    font-size: 0.9em;
+    letter-spacing: 0.13em;
+    font-weight: 600;
+}
